@@ -11,6 +11,12 @@ manifest:
     - name: zmk
       remote: cormoran
       revision: main+dya
+    - name: zmk-feature-custom-settings
+      remote: cormoran
+      revision: main
+    - name: zmk-feature-fast-keymap
+      remote: cormoran
+      revision: main
       import: app/west.yml
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
