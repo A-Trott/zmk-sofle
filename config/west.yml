@@ -11,8 +11,7 @@ manifest:
     - name: zmk
       remote: cormoran
       revision: v0.3-branch+dya
-      import:
-        file: app/west.yml
+      import: app/west.yml
     - name: zephyr
       remote: cormoran
       revision: v4.1.0+zmk-fixes+nrf-half-duplex-uart
