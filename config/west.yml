@@ -10,7 +10,7 @@ manifest:
       revision: main
     - name: zmk
       remote: cormoran
-      revision: main+dya
+      revision: v0.3-branch+dya
       import:
         file: app/west.yml
     - name: zephyr
